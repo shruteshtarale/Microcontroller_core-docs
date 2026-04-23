@@ -1,0 +1,23 @@
+Processor Characteristics
+•  Speeds and Feeds : 1. Clock
+2. IPC
+•  Cache: Fast access to memory
+•  Cores : Multicore Arch.
+Each core has its own cache (L1,L2)
+Core can share info in a cache(L3)
+11
+•  Bandwidth: need to communicate with the 
+outside world.
+PCI Express slots
+(graphics cards and other expansion cards,   
+and USB ports)
+The speed of this communication is called bandwidth. 
+
+Instruction Set Architecture for LPC2148
+12
+• Interface between hardware and the software
+• Only way to interact with the hardware is the 
+instruction set of the processor.
+• Instructions are the words of a computer’s 
+language and the instruction set is basically its 
+vocabulary.
