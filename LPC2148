@@ -21,3 +21,28 @@ instruction set of the processor.
 • Instructions are the words of a computer’s 
 language and the instruction set is basically its 
 vocabulary.
+
+
+Types of Instruction set
+• Reduced Instruction Set Computer (RISC)
+• Complex Instruction Set Computer (CISC)
+• Minimal instruction set computers (MISC)
+• Very long instruction word (VLIW)
+14
+• Explicitly parallel instruction computing (EPIC)
+• One instruction set computer (OISC)
+• Zero instruction set computer (ZISC)
+
+
+
+Two types of ISA
+1. RISC (Reduced Instruction Set Computer)
+2. CISC (Complex Instruction Set Computer)
+
+
+
+
+Difference Between CISC & RISC
+Instruction size and format->Large set of instructions with variable formats (16-64 bits per instruction).
+Data transfer->Memory to memory
+CPU control->Most micro coded using control memory (ROM) but modern CISC use hardwired control
