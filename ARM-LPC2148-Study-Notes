@@ -39,10 +39,28 @@ Two types of ISA
 1. RISC (Reduced Instruction Set Computer)
 2. CISC (Complex Instruction Set Computer)
 
+Concept of Polling and Interrupt
+• In embedded systems, the microcontroller 
+serves several devices. 
+• There are two methods on how these devices 
+receive service from the microcontroller 
+1.polling  
+2.interrupt
+
+#Polling:
+• In polling, the microcontroller continuously 
+monitors the status of a given device and 
+executes the task the device needed when 
+the status will satisfy the condition. After 
+that, it moves on to monitor the next device 
+until each one is served.
+
+#Interrupt:
+• In the interrupt method, the device that 
+needs the microcontroller’s service notifies 
+it by sending an interrupt signal. The 
+microcontroller stops whatever task it is 
+doing whenever it receives an interrupt 
+signal and serves that device.
 
 
-
-Difference Between CISC & RISC
-Instruction size and format->Large set of instructions with variable formats (16-64 bits per instruction).
-Data transfer->Memory to memory
-CPU control->Most micro coded using control memory (ROM) but modern CISC use hardwired control
